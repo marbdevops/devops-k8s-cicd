@@ -4,7 +4,7 @@ metadata:
   name: java-app-svc
 spec:
   type: LoadBalancer
-  externalTrafficPolicy: Cluster
+  externalTrafficPolicy: nodeport
   selector:
     app: java-app
   ports:
