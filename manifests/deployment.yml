@@ -19,7 +19,7 @@ spec:
     spec:
       containers:
       - name: java-app
-        image: marbdevops/k8s-test:latest
+        image: marbdevops/k8s-deploy:latest
         ports:
         - containerPort: 8080
         imagePullPolicy: Always
