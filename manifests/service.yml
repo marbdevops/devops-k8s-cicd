@@ -3,8 +3,6 @@ kind: Service
 metadata:
   name: java-app-svc
 spec:
-  type: LoadBalancer
-  externalTrafficPolicy: Cluster
   selector:
     app: java-app
   ports:
